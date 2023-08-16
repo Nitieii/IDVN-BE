@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"#models": ["models/index.js"],
+			"#models/*": ["models/*.js"],
+			"@models/*": ["models/*/index.js"],
+			"#middlewares": ["middlewares/index.js"],
+			"#middlewares/*": ["middlewares/*.js"],
+			"@middlewares/*": ["middlewares/*/index.js"],
+			"#configs": ["configs/index.js"],
+			"#configs/*": ["configs/*.js"],
+			"@configs/*": ["configs/*/index.js"],
+			"#routes": ["routes/index.js"],
+			"#routes/*": ["routes/*.js"],
+			"@routes/*": ["routes/*/index.js"],
+			"#controllers": ["controllers/index.js"],
+			"#controllers/*": ["controllers/*.js"],
+			"#utils": ["utils/index.js"],
+			"#utils/*": ["utils/*.js"],
+			"@utils/*": ["utils/*/index.js"],
+			"#handlers": ["handlers/index.js"],
+			"#handlers/*": ["handlers/*.js"],
+			"@handlers/*": ["handlers/*/index.js"],
+			"#services": ["services/index.js"],
+			"#services/*": ["services/*.js"],
+			"@services/*": ["services/*/index.js"]
+		}
+	}
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Unusual Login Attempt</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f5f5f5;
+			}
+			.container {
+				margin: 0 auto;
+				max-width: 600px;
+				padding: 20px;
+				background-color: #fff;
+				border-radius: 10px;
+				box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+			}
+			h1 {
+				color: #ca3636;
+				font-size: 24px;
+				margin: 0 0 20px;
+				text-align: center;
+			}
+			p {
+				font-size: 16px;
+				line-height: 1.5;
+				margin: 0 0 10px;
+			}
+			.btn {
+				display: inline-block;
+				padding: 10px 20px;
+				border-radius: 5px;
+				background-color: #ca3636;
+				color: #fff;
+				text-decoration: none;
+			}
+			.btn:hover {
+				background-color: #a02d2d;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Unusual Login Attempt</h1>
+			<p>Hello <%= name %>,</p>
+			<p>
+				We have detected an unusual login attempt on your account from <%=
+				location %> at <%= time %>.
+			</p>
+			<p>
+				If you did not attempt to log in from this location, please click the
+				button below to reset your password immediately:
+			</p>
+			<p>
+				<a class="btn" href="">Reset Password</a>
+			</p>
+			<p>If you have any questions or concerns, please reply to this email.</p>
+			<p>Thank you for using our service.</p>
+		</div>
+	</body>
+</html>

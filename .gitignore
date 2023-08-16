@@ -1,0 +1,6 @@
+node_modules/
+
+*.pdf
+.history
+routers.rest
+.env
