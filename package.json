@@ -48,6 +48,7 @@
 	"dependencies": {
 		"@google-cloud/speech": "^5.4.0",
 		"@google-cloud/storage": "^6.9.4",
+		"@mapbox/node-pre-gyp": "^1.0.11",
 		"@waylaidwanderer/chatgpt-api": "^1.13.3",
 		"argon2": "^0.28.5",
 		"aws-sdk": "^2.1140.0",
