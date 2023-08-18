@@ -3,8 +3,9 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - npm i node-gyp
       - npm install --force
+      - npm i node-gyp --build-from-source
+      - npm i argon2 --build-from-source
       - npm update
   build:
     commands:
