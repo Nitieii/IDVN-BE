@@ -5,10 +5,14 @@ AWS_BUCKET_REGIO=us-east-2
 AWS_SECRET_KEY=DI+qqjAt/yqBAyTJYPZHYCxV9VFeuDeE0kRDtXzD
 BASE_PORT=8080
 BASE_URL=localhost
-EMAIL=tuananh.ngo@lntpartners.com
-MONGOOSE_URL=mongodb+srv://Niteii:Kizosaco456@cluster0.vlrdk.mongodb.net/VNLIS?retryWrites=true&w=majority
+
+MONGOOSE_URL=mongodb+srv://tuananhngo2513:Kizosaco456@cluster0.fefe0sl.mongodb.net/
 NODE_ENV=production
-PASS_EMAIL=Kizosaco123
 PRIVATE_VAPID_KEY=86b8_Pp58GUtjddpQjY2oGG8au0pjZbnuGPkwagQiY4
 PUBLIC_VAPID_KEY=BE3D6roYHovpyQIWTbGM-3xkQkhxiM7gwbFGtWSw0KRsX5atXXMOZaDE0EzW-vEkHA0sytOpHyNSjzyfXd0T4-A
 REFRESH_TOKEN_SECRET=d2de50382818c0ac477ab33122dc3094799b0c61bb8aef88a6000eac3bbfa437ac8be765050dd7dea60b438958a840f2f2e13eec0cf9e713c06b861e965193b0
+
+EMAIL=bot.lntinternal@gmail.com
+GOOGLE_MAILER_CLIENT_ID=72830217306-44id53utgujobv8hm6htik4getsllsha.apps.googleusercontent.com
+GOOGLE_MAILER_CLIENT_SECRET=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
+GOOGLE_MAILER_REFRESH_TOKEN=1//04rt44iY7G5fPCgYIARAAGAQSNwF-L9IrLgPeV296k7ij4LRHUh41fG-6gB0MtlEFmUr-kZAh-cNLhwv2lBNkstM5FF2gJJrBqE0

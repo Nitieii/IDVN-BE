@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const mongoSanitize = require("express-mongo-sanitize");
-const xss = require("xss-clean");
 const compression = require("compression");
 const helmet = require("helmet");
 const mongoose = require("mongoose");
@@ -37,9 +36,6 @@ const io = require("socket.io")(http, {
 
 // Data sanitization against NoSQL query injection
 app.use(mongoSanitize());
-
-// Data sanitization against XSS
-app.use(xss());
 
 // against attack
 app.use(helmet());
